@@ -1,0 +1,18 @@
+{
+  "extends": "gts/tslint.json",
+  "rules": {
+    "no-console": [true],
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "named-imports-order": "lowercase-last"
+      }
+    ],
+    "typedef": [true, "call-signature", "parameter", "property-declaration"],
+    "no-inferrable-types": false
+  },
+  "linterOptions": {
+    "exclude": ["**/*.json"]
+  }
+}
